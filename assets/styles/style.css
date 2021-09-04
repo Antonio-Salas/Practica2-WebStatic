@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #3B035D;
+    --secondary-color: #27B5DC;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.header_logo {
+    color: white;
+    margin-left: 1rem;
+    font-size: 2.5rem;
+}
+
+.header_ul li a{
+    color: white;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+}
+
+.main {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.main_divOne {
+    padding: 1.5rem;
+}
+
+.main_divOne h1{
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.main_divOne p {
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+.main_divOne button {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+}
+
+.sectionOne h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.sectionOne p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.sectionOne_DivTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionOne_DivTwo div {
+    height: 5rem;
+    width: 80%;
+    font-size: 1.8rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.sectionOne_DivTwo .development {
+    background-color: var(--secondary-color);
+}
+
+.sectionOne_DivTwo .topSkills {
+    background-color: #8A71EE;
+}
+
+.sectionOne_DivTwo .design {
+    background-color: #5C39E7;
+}
+
+.sectionOne_DivTwo .responsive {
+    background-color: #BB72EF;
+}
