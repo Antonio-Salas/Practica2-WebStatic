@@ -119,3 +119,43 @@ img {
 .sectionOne_DivTwo .responsive {
     background-color: #BB72EF;
 }
+
+.sectionTwo {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.sectionTwo_DivOne {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.sectionTwo_DivOne h1{
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.sectionTwo_DivTwo {
+    font-size: 1.8rem;
+    padding: 1.5rem;
+}
+
+.sectionTwo_DivTwo div {
+    margin: 2rem 1rem;
+}
+
+.sectionTwo_DivTwo h2 {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.sectionTwo_DivTwo p {
+    margin: 1rem;
+}
+
+.sectionTwo_DivTwo a {
+    color: white;
+    text-decoration: underline;
+}
