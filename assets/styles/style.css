@@ -81,7 +81,7 @@ img {
 }
 
 .sectionOne p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     text-align: center;
     margin: 1rem;
 }
@@ -158,4 +158,57 @@ img {
 .sectionTwo_DivTwo a {
     color: white;
     text-decoration: underline;
+}
+
+.sectionThree_DivOne {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sectionThree_DivOne h1{
+    color: var(--secondary-color);
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.sectionThree_DivOne p {
+    font-size: 2rem;
+    margin: 1.5rem 2rem;
+}
+
+.sectionThree_DivOne button {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: white;
+    margin: 2rem;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+}
+
+.sectionFour {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionFour div {
+    width: 50rem;
+    height: 15rem;
+    margin: 1rem;
+    background-color: #27B5DC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionFour div img {
+    height: 8rem;
+}
+
+.sectionFour div h3 {
+    font-size: 2rem;
+    color: white;
 }
