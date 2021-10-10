@@ -1,5 +1,5 @@
 img {
-    margin: 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 
 .main {
@@ -58,13 +58,20 @@ img {
     margin: 3rem;
 }
 
+.sectionThree_DivTwo img{
+    height: 30rem;
+    padding: 1rem;
+}
+
 .sectionFour {
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .sectionFour div {
     width: 100rem;
     margin: 4rem;
+    align-self: center;
 }
 
 .sectionFive {
@@ -72,3 +79,18 @@ img {
     padding: 6rem 4rem;
 }
 
+.sectionSix {
+    display: block;
+    padding: 3rem;
+}
+
+.sectionSix_Div {
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.sectionSix_Div div {
+    flex-wrap: nowrap;
+    width: auto;
+    padding: 2rem;
+}
