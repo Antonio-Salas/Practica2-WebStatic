@@ -54,6 +54,8 @@ img {
 .sectionThree_DivOne {
     align-self: center;
     display: block;
+    width: 45rem;
+    margin: 3rem;
 }
 
 .sectionFour {
@@ -64,3 +66,9 @@ img {
     width: 100rem;
     margin: 4rem;
 }
+
+.sectionFive {
+    display: flex;
+    padding: 6rem 4rem;
+}
+
